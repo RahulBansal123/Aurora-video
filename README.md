@@ -1,7 +1,7 @@
 # AURORA
 
 <h1 align="center">
-  <br><img src="https://github.com/akashnimare/foco/blob/master/app/img/foco.png" alt="Foco" width="160"></h1>
+  <br><img src="https://github.com/RahulBansal123/Aurora-short-app/blob/main/AuroraLogo.png" alt="Foco" width="160"></h1>
   
   <h4 align="center">Video Making app built with React and Firebase.</h4>
   Aurora is a short video making app with user authentication and great UI Effects.
