@@ -1,4 +1,4 @@
-# AURORA
+# AURORA - A Video App
 
 <h1 align="center">
   <br><img src="https://github.com/RahulBansal123/Aurora-short-app/blob/main/AuroraLogo.png" alt="Logo" width="160"></h1>
