@@ -1,0 +1,62 @@
+.auth_form {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.auth_form > form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 500px;
+  margin-top: 250px;
+}
+.auth_inputs {
+  width: 100%;
+  height: 65px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  color: #fff;
+  background: #9e9e9e59;
+  border: none;
+  outline: none;
+}
+.auth_inputs:hover,
+.auth_inputs:focus {
+  background-color: #7b78789c;
+  color: #fff;
+}
+.auth_input_buttons {
+  height: 50px;
+  padding: 13px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+.login_button {
+  font-weight: 500;
+  color: #fff;
+  background-color: #c32b2b;
+}
+.login_button:hover {
+  background-color: #f33e3e;
+}
+.create_button {
+  background-color: #fff;
+}
+@media screen and (min-width: 480px) {
+  .auth_form > form {
+    width: 60%;
+    margin-top: 60px;
+    height: 300px;
+  }
+  .auth_inputs {
+    height: 50px;
+    font-size: 15px;
+  }
+}

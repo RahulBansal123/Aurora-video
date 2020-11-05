@@ -1,0 +1,16 @@
+.VideoPlayer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+hr {
+  width: 92%;
+  border: 2px solid rgb(43, 42, 40);
+  margin: auto;
+  margin-top: 50px;
+}

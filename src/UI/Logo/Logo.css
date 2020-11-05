@@ -1,0 +1,18 @@
+.official_logo_container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  top: 50px;
+  left: 40px;
+}
+.official_logo_container > h2 {
+  margin-right: 20px;
+}
+.official_logo {
+  display: inline-block;
+  background-image: linear-gradient(to right, rgb(235, 235, 235), #f33e3e);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,44 @@
+.video_sidebar {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  right: 0;
+  top: 33%;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.sidebar_icons {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 2rem;
+}
+.icon_content {
+  font-size: 14px;
+  margin: 3px auto;
+}
+.sidebar_icons_icon {
+  cursor: pointer;
+  font-size: 1.7em !important;
+}
+.sidebar_icons_icon_heart {
+  animation: iconclick 0.5s;
+  color: red;
+}
+@keyframes iconclick {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* @media screen and (max-width: 480px) {
+  .video_sidebar {
+    top: 40%;
+  }
+} */

@@ -1,0 +1,52 @@
+.tiktok_footer_container {
+  width: 100%;
+  display: flex;
+  background-color: rgb(38, 37, 37);
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  position: fixed;
+}
+.tiktok_footer_icons,
+.tiktok_footer_icons_add {
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  width: 3em !important;
+  height: 50px !important;
+}
+.tiktok_footer_icons_clicked {
+  border-radius: 20%;
+  background-color: #464444e7;
+}
+.tiktok_footer_icons_add {
+  height: 60px !important;
+  width: 4em !important;
+}
+@media screen and (min-width: 480px) {
+  .tiktok_footer_icons,
+  .tiktok_footer_icons_add {
+    font-size: 1.5rem !important;
+  }
+  .tiktok_footer_container {
+    bottom: 0;
+    width: 30%;
+  }
+}
+.addShowIcon {
+  background-color: rgba(57, 55, 55, 0.726);
+  position: absolute;
+  top: -50px;
+  padding: 8px;
+  border-radius: 12px;
+  left: 3px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .tiktok_footer_container {
+    bottom: 0;
+  }
+}

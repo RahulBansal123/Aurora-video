@@ -1,0 +1,49 @@
+.notification_header {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  font-size: 20px;
+}
+.notification_contacts {
+  position: absolute;
+  font-size: 20px;
+  right: 15px;
+  margin-top: 3px;
+  background-color: black;
+  color: rgb(110, 36, 170);
+  font-weight: 600;
+}
+.activity_icon_container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.activity_icon {
+  width: 18% !important;
+  margin: 20px 2%;
+  padding: 8px;
+  border-radius: 10px;
+  height: 50px !important;
+  cursor: pointer;
+}
+.activity_logo_container {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  padding-top: 20px;
+}
+.activity_logo_container > h2 {
+  margin-top: 60px;
+  font-size: 20px;
+  color: #fff;
+}
+.activity_logo_container > p {
+  margin: 20px auto;
+  font-size: 15px;
+  color: rgb(121, 117, 117);
+}
+.activity_logo {
+  width: 40%;
+  border-radius: 50%;
+}

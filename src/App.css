@@ -1,0 +1,31 @@
+.tiktok {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+  width: 100vw;
+}
+.tiktok_container {
+  width: 30%;
+  background-color: #191919e7;
+  height: 90%;
+  border-radius: 25px 25px 0 0;
+  overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+  .tiktok {
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+  }
+  .tiktok_container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .tiktok_container {
+    height: 84%;
+  }
+}

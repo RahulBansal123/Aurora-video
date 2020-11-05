@@ -1,0 +1,51 @@
+.video_footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 34px;
+  padding: 0px 20px;
+  color: #fff;
+}
+.user_username {
+  font-size: 24px;
+  font-weight: 700;
+}
+.video_description {
+  /* overflow: hidden; */
+  font-weight: 300;
+  font-size: 15px;
+}
+.song_container {
+  margin-top: 5px;
+  display: flex;
+}
+.song_title_container {
+  overflow: hidden;
+  width: 85%;
+  margin: auto 8px;
+}
+.song {
+  position: relative;
+  top: 0;
+  font-size: 0.9rem;
+  animation-name: songanimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes songanimation {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -30%;
+  }
+}
+/* @media screen and (min-width: 480px) {
+  .video_footer {
+    bottom: 109px;
+  }
+} */

@@ -1,0 +1,15 @@
+.feed_container {
+  height: 100%;
+  position: relative;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* to hide the scrollbars */
+.feed_container {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.feed_container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
