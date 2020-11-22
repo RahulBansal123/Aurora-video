@@ -1,10 +1,10 @@
-# AURORA - A Video App
+# AURORA - A Video Website
 
 <h1 align="center">
   <br><img src="https://github.com/RahulBansal123/Aurora-short-app/blob/main/AuroraLogo.png" alt="Logo" width="160"></h1>
   
-  <h4 align="center">Video Making app built with React and Firebase.</h4>
-  Aurora is a short video making app with user authentication and great UI Effects.
+  <h4 align="center">Video Making website built with React and Firebase.</h4>
+  Aurora is a short video making website with user authentication and great UI Effects.
   
  # Demo
  <div>
